@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="rating_pizza1" type="id"></item>
+    <item name="ratingpizza2" type="id"></item>
+    <item name="rating_pizza3" type="id"></item>
+    <item name="rating_salad1" type="id"></item>
+    <item name="ratingsalad2" type="id"></item>
+    <item name="rating_starters1" type="id"></item>
+    <item name="ratingstart2" type="id"></item>
+    <item name="rating_start3" type="id"></item>
+    <item name="ratingstart4" type="id"></item>
+    <item name="rating_pasta1" type="id"></item>
+    <item name="ratingpasta2" type="id"></item>
+    <item name="rating_drink1" type="id"></item>
+    <item name="ratingdrink2" type="id"></item>
+    <item name="fabpizza1" type="id"></item>
+</resources>

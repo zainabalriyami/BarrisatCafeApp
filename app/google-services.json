@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609268075067",
+    "project_id": "barristacafe-19f19188",
+    "storage_bucket": "barristacafe-19f19188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609268075067:android:2790f1cbc6b47ab41bea1e",
+        "android_client_info": {
+          "package_name": "com.example.barristacafe_19f19188"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoKkAJolSwJ8qfyIrGSas749K96bLa9WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

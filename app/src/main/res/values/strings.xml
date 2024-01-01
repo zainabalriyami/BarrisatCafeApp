@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Barrista Cafe</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="pizza">Pizza</string>
+    <string name="salads">Salads</string>
+    <string name="Starters">Starters</string>
+    <string name="pasta">Pasta</string>
+    <string name="Drinks">Beverages</string>
+    <string name="itemsPizza">25 items</string>
+    <string name="itemsSalads">30 itmes</string>
+    <string name="itemsStarters">30 items</string>
+    <string name="itemsPasta">44 items</string>
+    <string name="itemsDrinks">30 items</string>
+    <string name="pizzaMenu">Pizza Menu</string>
+    <string name="pizza1">PEPPERONI</string>
+    <string name="pprice1"> M 3.50 L 4.1 OMR</string>
+    <string name="pizzainfo1">Home-made pizza sauce, cheddar
+and mozzarella cheese and pepperoni. Garnish with parmesan and
+oregano</string>
+    <string name="pizza2">MEXICAN PIZZA</string>
+    <string name="pprice2"> M 3.50 L 4.5 OMR</string>
+    <string name="pizzainfo2">Thin crust, home-made pizza
+sauce, shredded spicy chicken, red
+hot chili, onion and blend of
+cheese.</string>
+    <string name="pizza3">MARGHERITA</string>
+    <string name="pprice3"> M 3.4 L 4.2 OMR</string>
+    <string name="pizzainfo3">Home-made pizza sauce, mozzarella, cheddar chesse and sliced tomatoes. Sprinkled with parmesan
+cheese and basil</string>
+    <string name="salad1">CAESAR SALAD</string>
+    <string name="saladinfo1">Lettuce, caesar dressing and chicken. Sprinkled with parmesan cheese</string>
+    <string name="salad2">BARISTA KINWA SALAD</string>
+    <string name="saladinfo2">Lettuce, capsicum, grilled haloumi cheese and kinwa seeds. Tossed with our special dressing</string>
+    <string name="Sprice">2.00 OMR</string>
+
+    <string name="Starters1">DYNAMIT CHICKEN</string>
+    <string name="Dprice">2.00 OMR</string>
+
+    <string name="Starters2">DYNAMITE SHRIMP</string>
+    <string name="shprice">2.00 OMR</string>
+
+    <string name="Starters3">CHICKEN WINGS LOUISIANA</string>
+    <string name="wingsprice">2.00 OMR</string>
+
+    <string name="Starters4">BAKED POTATO CHEESE</string>
+    <string name="potatoprice">2.00 OMR</string>
+
+
+    <string name="pasta1">SPAGHETTI BOLOGNESE</string>
+    <string name="Pastaprice1">3.00 OMR</string>
+    <string name="pastainfo1">Spaghetti pasta cooked in our special meat sauce. Served with parmesan cheese</string>
+    <string name="pasta2">MACARONI MASERATI BEEF</string>
+    <string name="Pastaprice2">3.300 OMR</string>
+    <string name="pastainfo2">Baked. Macaroni pasta, bolognese and white sauce, topped with mozzarella cheese. Sprinkled with parmesan</string>
+
+
+    <string name="Drinks1">RASPBERRY</string>
+    <string name="Drinks2">BARRISTA MOCKTAIL</string>
+    <string name="rossprice">1.20 OMR</string>
+    <string name="mocsprice">2.20 OMR</string>
+
+    <string name="Category">Category</string>
+    <string name="AboutUs">AboutUs</string>
+    <string name="Menu">Menu</string>
+    <string name="location">Brunches</string>
+    <string name="ContentUs">Content Us</string>
+
+
+</resources>
+

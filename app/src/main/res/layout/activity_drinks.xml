@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".drinks">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/DrinksMenu"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:background="@color/green" />
+
+    <ScrollView
+        android:id="@+id/DM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rowTital"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvdrinkMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/Drinks"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rowdrinkmenu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/carddrink1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="40dp"
+                    android:background="@color/white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/Drink1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginEnd="80dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/Drinks1"
+                            android:textColor="@color/green"
+                            android:textSize="23sp" />
+
+                        <RatingBar
+                            android:id="@id/rating_drink1"
+                            style="@style/Widget.AppCompat.RatingBar.Indicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Drink1"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="31dp"
+                            android:layout_marginEnd="80dp"
+                            android:layout_marginBottom="80dp"
+                            android:isIndicator="false"
+                            android:progressTint="@color/Yellow" />
+
+                        <TextView
+                            android:id="@+id/tvdprice1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rating_drink1"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="80dp"
+                            android:layout_marginBottom="80dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/rossprice"
+                            android:textColor="@color/green"
+                            android:textSize="19sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imagdrink1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rossberry"
+                    android:contentDescription="@string/Drinks2"
+                    android:elevation="2dp"
+                    android:layout_margin="8dp"
+                    />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabdrink1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="@string/Drinks1"
+                    android:src="@drawable/baseline_add_24"
+                    app:tint="@color/green" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rowdrinkmenu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/carddrink2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="43dp"
+                    android:background="@color/white">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/drink2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="80dp"
+                            android:text="@string/Drinks2"
+                            android:textSize="23sp"
+                            android:textColor="@color/green"
+                            android:fontFamily="@font/poppins_semibold"
+                            />
+
+                        <RatingBar
+                            android:id="@id/ratingdrink2"
+                            style="@style/Widget.AppCompat.RatingBar.Indicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/drink2"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="31dp"
+                            android:layout_marginEnd="80dp"
+                            android:layout_marginBottom="1dp"
+                            android:isIndicator="false"
+                            android:progressTint="@color/Yellow" />
+
+                        <TextView
+                            android:id="@+id/tvDprice2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ratingdrink2"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="54dp"
+                            android:layout_marginEnd="80dp"
+                            android:layout_marginBottom="80dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/mocsprice"
+                            android:textColor="@color/green"
+                            android:textSize="19sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imagdrink2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:contentDescription="@string/Drinks2"
+                    android:layout_marginBottom="4dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/jouse" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabdrink2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="48dp"
+                    app:tint="@color/green"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/baseline_add_24" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MenuActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/colLeft"
+        android:layout_width="487dp"
+        android:layout_height="match_parent"
+        android:background="@color/green" />
+    <ScrollView
+        android:id="@+id/scV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/row_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPizza"
+            android:layout_width="1486dp"
+            android:layout_height="457dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvpizza"
+                    android:layout_width="673dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/pizza"
+                    android:textColor="@color/green"
+                    android:textSize="100sp" />
+
+                <TextView
+                    android:id="@+id/item_pizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvpizza"
+                    android:layout_marginLeft="400dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/itemsPizza"
+                    android:textColor="@color/green"
+                    android:textSize="50sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:id="@+id/imgpizza"
+            android:layout_width="307dp"
+            android:layout_height="320dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="90dp"
+            android:elevation="2dp"
+            android:src="@drawable/paparonpizza" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabpizza"
+            android:layout_width="96dp"
+            android:layout_height="289dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/baseline_keyboard_arrow_right_24"
+            app:backgroundTint="@color/green"
+            app:tint="@color/white" />
+
+
+
+    </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/row_salad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardSalad"
+                    android:layout_width="1486dp"
+                    android:layout_height="457dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="40dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvsalad"
+                            android:layout_width="673dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/salads"
+                            android:textColor="@color/green"
+                            android:textSize="100sp" />
+
+                        <TextView
+                            android:id="@+id/item_salad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvsalad"
+                            android:layout_marginLeft="400dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/itemsSalads"
+                            android:textColor="@color/green"
+                            android:textSize="50sp" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imgsalad"
+                    android:layout_width="307dp"
+                    android:layout_height="320dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="90dp"
+                    android:layout_marginBottom="90dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/csalad" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabsalad"
+                    android:layout_width="96dp"
+                    android:layout_height="289dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24"
+                    app:backgroundTint="@color/green"
+                    app:tint="@color/white" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/row_Starters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardStarters"
+                    android:layout_width="1486dp"
+                    android:layout_height="457dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="40dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvStarters"
+                            android:layout_width="673dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/Starters"
+                            android:textColor="@color/green"
+                            android:textSize="100sp" />
+
+                        <TextView
+                            android:id="@+id/item_Starters"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvStarters"
+                            android:layout_marginLeft="400dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/itemsStarters"
+                            android:textColor="@color/green"
+                            android:textSize="50sp" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imgStarters"
+                    android:layout_width="307dp"
+                    android:layout_height="320dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="90dp"
+                    android:layout_marginBottom="90dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/dycheckin" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabStarters"
+                    android:layout_width="96dp"
+                    android:layout_height="289dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24"
+                    app:backgroundTint="@color/green"
+                    app:tint="@color/white" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/row_pasta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardpasta"
+                    android:layout_width="1486dp"
+                    android:layout_height="457dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="40dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvpasta"
+                            android:layout_width="673dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/pasta"
+                            android:textColor="@color/green"
+                            android:textSize="100sp" />
+
+                        <TextView
+                            android:id="@+id/item_pasta"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvpasta"
+                            android:layout_marginLeft="400dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/itemsPasta"
+                            android:textColor="@color/green"
+                            android:textSize="50sp" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imgpasta"
+                    android:layout_width="307dp"
+                    android:layout_height="320dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="90dp"
+                    android:layout_marginBottom="90dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/pastabeef" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabpasta"
+                    android:layout_width="96dp"
+                    android:layout_height="289dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24"
+                    app:backgroundTint="@color/green"
+                    app:tint="@color/white" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/row_Drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardDrinks"
+                    android:layout_width="1486dp"
+                    android:layout_height="457dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="40dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvDrinks"
+                            android:layout_width="673dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="18dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/Drinks"
+                            android:textColor="@color/green"
+                            android:textSize="100sp" />
+
+                        <TextView
+                            android:id="@+id/item_Drinks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvDrinks"
+                            android:layout_marginLeft="400dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/itemsStarters"
+                            android:textColor="@color/green"
+                            android:textSize="50sp" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imgDrinks"
+                    android:layout_width="307dp"
+                    android:layout_height="320dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="90dp"
+                    android:layout_marginBottom="90dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/rossberry" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabDrinks"
+                    android:layout_width="96dp"
+                    android:layout_height="289dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24"
+                    app:backgroundTint="@color/green"
+                    app:tint="@color/white" />
+
+
+
+
+            </RelativeLayout>
+
+</LinearLayout>
+    </ScrollView>
+</FrameLayout>
+
+

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaladMenu">
+
+
+    <RelativeLayout
+        android:id="@+id/saladMenu"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:background="@color/green" />
+
+    <ScrollView
+        android:id="@+id/SaladM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rowTital"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvsaladMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/salads"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rowsaladmenu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardsalad1"
+                    android:layout_width="330dp"
+                    android:layout_height="190dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="40dp"
+                    android:background="@color/white">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/salad1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:text="@string/salad1"
+                            android:textSize="23sp"
+                            android:textColor="@color/green"
+                            android:fontFamily="@font/poppins_semibold"
+                            />
+
+                        <TextView
+                            android:id="@+id/saladinfo1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/saladinfo1"
+                            android:layout_below="@id/salad1"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginLeft="80dp"
+                            android:textSize="14sp"
+                            android:textColor="@color/green"
+                            />
+
+                        <RatingBar
+                            android:id="@id/rating_salad1"
+                            style="@style/Widget.AppCompat.RatingBar.Indicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/saladinfo1"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginLeft="80dp"
+                            android:isIndicator="false"
+                            android:progressTint="@color/Yellow" />
+
+                        <TextView
+                            android:id="@+id/tvprices1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/rating_salad1"
+                            android:layout_marginLeft="80dp"
+                            android:text="@string/Sprice"
+                            android:textSize="14sp"
+                            android:textColor="@color/green"
+                            android:fontFamily="@font/poppins_semibold"/>
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imagsalad1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/csalad"
+                    android:elevation="2dp"
+                    android:layout_margin="4dp"
+                    />
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabsalad1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="6dp"
+                    app:tint="@color/green"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/baseline_add_24" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rowsaladmenu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardsalad2"
+                    android:layout_width="330dp"
+                    android:layout_height="190dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="40dp"
+                    android:background="@color/white">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/salad2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:text="@string/salad2"
+                            android:textSize="23sp"
+                            android:textColor="@color/green"
+                            android:fontFamily="@font/poppins_semibold"
+                            />
+
+                        <TextView
+                            android:id="@+id/saladinfo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/saladinfo2"
+                            android:layout_below="@id/salad2"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginLeft="80dp"
+                            android:textSize="14sp"
+                            android:textColor="@color/green"
+                            />
+
+                        <RatingBar
+                            android:id="@id/ratingsalad2"
+                            style="@style/Widget.AppCompat.RatingBar.Indicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/saladinfo2"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginLeft="80dp"
+                            android:isIndicator="false"
+                            android:progressTint="@color/Yellow" />
+
+                        <TextView
+                            android:id="@+id/tvprices2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/ratingsalad2"
+                            android:layout_marginLeft="80dp"
+                            android:text="@string/Sprice"
+                            android:textSize="14sp"
+                            android:textColor="@color/green"
+                            android:fontFamily="@font/poppins_semibold"/>
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <ImageView
+                    android:id="@+id/imagsalad2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/kinwasalad" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabsalad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="6dp"
+                    app:tint="@color/green"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/baseline_add_24" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
